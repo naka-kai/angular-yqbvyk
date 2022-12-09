@@ -15,7 +15,7 @@ import { PuroductDetailsComponent } from './puroduct-details/puroduct-details.co
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'products/:productId', component: PuroductDetailsComponent },
     ])
   ],
   declarations: [
